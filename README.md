@@ -29,7 +29,7 @@ To successfully participate in the course, **an appropriate project setup** must
 - `Python 3.10+`
 - Required packages listed in `/requirements/requirements.txt` and `/requirements/environment.yml`.
 
-**Setup Guide**  
+# **Setup Guide**  
 
 There are two recommended ways to create the required environment:  
 
@@ -38,74 +38,76 @@ There are two recommended ways to create the required environment:
 
 ---
 
-**1. Using the `environment.yml` file**  
+## **1. Using the `environment.yml` file**  
 
-**Step 1: Install Miniconda**  
+### **Step 1: Install Miniconda**  
 If Miniconda is not installed, download and install it from [Miniconda's official website](https://docs.conda.io/en/latest/miniconda.html).  
 
-**Step 2: Download the `environment.yml` file**  
+### **Step 2: Download the `environment.yml` file**  
 - Locate the file at:  
   ```
   /requirements/environment.yml
   ```
 - Move the downloaded `environment.yml` file to your project folder.  
 
-**Step 3: Navigate to Your Project Folder**  
+### **Step 3: Navigate to Your Project Folder**  
 ```sh
 cd /project/path
 ```  
 
-**Step 4: Create the Environment**  
+### **Step 4: Create the Environment**  
 ```sh
 conda env create -f environment.yml
 ```  
 
-**Step 5: Activate the Environment**  
+### **Step 5: Activate the Environment**  
 ```sh
 conda activate biosignals
 ```  
 
-**Step 6: Verify Installation**  
+### **Step 6: Verify Installation**  
 ```sh
 conda env list
 ```  
 
 ---
 
-**2. Manually Setting Up the Environment**  
+## **2. Manually Setting Up the Environment**  
 
-**Step 1: Install Miniconda**  
+### **Step 1: Install Miniconda**  
 If Miniconda is not installed, download and install it from [Miniconda's official website](https://docs.conda.io/en/latest/miniconda.html).  
 
-**Step 2: Create and Activate the Environment**  
+### **Step 2: Create and Activate the Environment**  
 ```sh
 conda create -n biosignals python=3.10 jupyter
 conda activate biosignals
 ```  
-**Step 3: Install Required Packages**  
+
+### **Step 3: Install Required Packages**  
 ```sh
 conda install numpy scipy matplotlib pandas
 conda install -c conda-forge mne scikit-learn
 pip install biosppy wfdb
 ```  
-**Step 4: Include Jupyter Notebook Support**  
+
+### **Step 4: Include Jupyter Notebook Support**  
 ```sh
 conda install --name=base nb_conda_kernels
 ```  
 
-**Step 5: Activate the Environment**  
+### **Step 5: Activate the Environment**  
 ```sh
 conda activate biosignals
 ```  
 
-**Step 6: Verify Installation**  
+### **Step 6: Verify Installation**  
 ```sh
 conda env list
 ```  
 
 ---
 
-**Testing the Setup**  
+## **Testing the Setup**  
 To test if everything is working correctly:  
 
 - Download and run the files from [`/Week1/code/`](https://github.com/undeMalum/DecodingLifeSignals/tree/main/Week1/code).  
