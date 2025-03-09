@@ -23,33 +23,96 @@ This course explores the fascinating world of **biomedical signal processing**, 
 The course combines **theoretical foundations with hands-on practical experience**, utilizing real-world data and live signal acquisition. Students will work with EEG, ECG, and EMG signals, learning to apply **signal processing techniques**, **machine learning algorithms**, and **data visualization methods** to extract meaningful information from biological data.
 
 ### Environment Setup
-To successfully participate in the course, **an appropriate project setup** must be prepared:
+To successfully participate in the course, **an appropriate project setup** must be prepared (see below or visit `/Week1/docs/01. Setting Up the working environment.pdf`)
 
 **Requirements**
 - `Python 3.10+`
-- Required packages listed in `/requirements/requirements.txt`
+- Required packages listed in `/requirements/requirements.txt` and `/requirements/environment.yml`.
 
-**Setup Guide**
-1. **Install Miniconda** (if not already installed)
-2. **Prepare Course Environment**
-```
+## **Setup Guide**  
+
+There are two recommended ways to create the required environment:  
+
+1. **Using the `environment.yml` file** (Recommended)  
+2. **Manually setting up the environment**  
+
+---
+
+### **1. Using the `environment.yml` file**  
+
+**Step 1: Install Miniconda**  
+If Miniconda is not installed, download and install it from [Miniconda's official website](https://docs.conda.io/en/latest/miniconda.html).  
+
+**Step 2: Download the `environment.yml` file**  
+- Locate the file at:  
+  ```
+  /requirements/environment.yml
+  ```
+- Move the downloaded `environment.yml` file to your project folder.  
+
+**Step 3: Navigate to Your Project Folder**  
+```sh
+cd /project/path
+```  
+
+**Step 4: Create the Environment**  
+```sh
+conda env create -f environment.yml
+```  
+
+**Step 5: Activate the Environment**  
+```sh
+conda activate biosignals
+```  
+
+**Step 6: Verify Installation**  
+```sh
+conda env list
+```  
+
+---
+
+### **2. Manually Setting Up the Environment**  
+
+**Step 1: Install Miniconda**  
+If Miniconda is not installed, download and install it from [Miniconda's official website](https://docs.conda.io/en/latest/miniconda.html).  
+
+**Step 2: Create and Activate the Environment**  
+```sh
 conda create -n biosignals python=3.10 jupyter
 conda activate biosignals
-```
-3. **Install Required Packages**
-```
+```  
+
+**Step 3: Install Required Packages**  
+```sh
 conda install numpy scipy matplotlib pandas
 conda install -c conda-forge mne scikit-learn
 pip install biosppy wfdb
-```
-4. **Include Jupyter Notebook**
-```
-conda install --name=base nb conda kernels
-```
+```  
 
-To test the setup, download and run the files from [`/Week1/code/`](https://github.com/undeMalum/DecodingLifeSignals/tree/main/Week1/code).
+**Step 4: Include Jupyter Notebook Support**  
+```sh
+conda install --name=base nb_conda_kernels
+```  
 
-For more information, visit [`/Week1/docs`](https://github.com/undeMalum/DecodingLifeSignals/tree/main/Week1/docs).
+**Step 5: Activate the Environment**  
+```sh
+conda activate biosignals
+```  
+
+**Step 6: Verify Installation**  
+```sh
+conda env list
+```  
+
+---
+
+### **Testing the Setup**  
+To test if everything is working correctly:  
+
+- Download and run the files from [`/Week1/code/`](https://github.com/undeMalum/DecodingLifeSignals/tree/main/Week1/code).  
+
+For additional details, refer to the documentation at [`/Week1/docs`](https://github.com/undeMalum/DecodingLifeSignals/tree/main/Week1/docs). 
 
 ### Key Learning Objectives
 - Master fundamental concepts in biomedical signal processing
