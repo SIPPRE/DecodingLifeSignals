@@ -1,0 +1,21 @@
+﻿name	type	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
+EEG Fp1-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG Fp2-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG Fz-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG F3-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG F4-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG F7-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG F8-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG Cz-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG C3-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG C4-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG T3-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG T4-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG Pz-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG P3-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG P4-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG T5-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG T6-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG O1-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG O2-A1A2	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
+EEG LOC-ROC	EEG	µV	0.5	60.0	ElectroEncephaloGram	500.0	good	n/a
