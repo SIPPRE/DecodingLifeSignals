@@ -1,0 +1,18 @@
+name: biosignals
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - nb_conda_kernels 
+  - python=3.10
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - conda-forge::mne
+  - conda-forge::scikit-learn
+  - pip
+  - pip:
+    - biosppy
+    - wfdb
