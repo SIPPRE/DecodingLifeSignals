@@ -3,144 +3,144 @@
         "clip_id": 1,
         "title": "YYZ",
         "artist": "Rush",
-        "valence": 7,
-        "arousal": 6,
+        "valence": 8,
+        "arousal": 7,
         "familiarity": 1,
-        "timestamp": "2025-04-15 11:11:57"
+        "timestamp": "2025-05-16 15:11:04"
     },
     {
         "clip_id": 2,
         "title": "Surfing with the Alien",
         "artist": "Joe Satriani",
-        "valence": 8,
-        "arousal": 8,
-        "familiarity": 3,
-        "timestamp": "2025-04-15 11:14:14"
+        "valence": 6,
+        "arousal": 6,
+        "familiarity": 1,
+        "timestamp": "2025-05-16 15:13:33"
     },
     {
         "clip_id": 3,
         "title": "Jessica",
         "artist": "The Allman Brothers Band",
         "valence": 6,
-        "arousal": 6,
-        "familiarity": 2,
-        "timestamp": "2025-04-15 11:16:31"
+        "arousal": 2,
+        "familiarity": 1,
+        "timestamp": "2025-05-16 15:15:59"
     },
     {
         "clip_id": 4,
         "title": "Cliffs of Dover",
         "artist": "Eric Johnson",
         "valence": 6,
-        "arousal": 6,
+        "arousal": 3,
         "familiarity": 1,
-        "timestamp": "2025-04-15 11:18:52"
+        "timestamp": "2025-05-16 15:18:23"
     },
     {
         "clip_id": 5,
         "title": "Albatross",
         "artist": "Fleetwood Mac",
-        "valence": 6,
-        "arousal": 3,
-        "familiarity": 1,
-        "timestamp": "2025-04-15 11:21:07"
+        "valence": 5,
+        "arousal": 1,
+        "familiarity": 2,
+        "timestamp": "2025-05-16 15:20:52"
     },
     {
         "clip_id": 6,
         "title": "Maggot Brain",
         "artist": "Funkadelic",
-        "valence": 8,
+        "valence": 2,
         "arousal": 3,
         "familiarity": 1,
-        "timestamp": "2025-04-15 11:23:21"
+        "timestamp": "2025-05-16 15:23:12"
     },
     {
         "clip_id": 7,
         "title": "Bron-Yr-Aur",
         "artist": "Led Zeppelin",
-        "valence": 6,
-        "arousal": 3,
+        "valence": 7,
+        "arousal": 6,
         "familiarity": 1,
-        "timestamp": "2025-04-15 11:25:44"
+        "timestamp": "2025-05-16 15:25:32"
     },
     {
         "clip_id": 8,
         "title": "Watermelon in Easter Hay",
         "artist": "Frank Zappa",
-        "valence": 6,
+        "valence": 5,
         "arousal": 2,
         "familiarity": 1,
-        "timestamp": "2025-04-15 11:27:59"
+        "timestamp": "2025-05-16 15:27:59"
     },
     {
         "clip_id": 9,
         "title": "The Call of Ktulu",
         "artist": "Metallica",
-        "valence": 4,
+        "valence": 7,
         "arousal": 7,
-        "familiarity": 4,
-        "timestamp": "2025-04-15 11:32:24"
+        "familiarity": 5,
+        "timestamp": "2025-05-16 15:32:23"
     },
     {
         "clip_id": 10,
         "title": "Schism",
         "artist": "Tool",
-        "valence": 3,
+        "valence": 5,
         "arousal": 4,
-        "familiarity": 1,
-        "timestamp": "2025-04-15 11:34:44"
+        "familiarity": 5,
+        "timestamp": "2025-05-16 15:34:51"
     },
     {
         "clip_id": 11,
         "title": "Battle without honor",
         "artist": "Hotei",
-        "valence": 3,
-        "arousal": 8,
+        "valence": 7,
+        "arousal": 7,
         "familiarity": 5,
-        "timestamp": "2025-04-15 11:37:02"
+        "timestamp": "2025-05-16 15:37:08"
     },
     {
         "clip_id": 12,
         "title": "Orion",
         "artist": "Metallica",
-        "valence": 3,
+        "valence": 9,
         "arousal": 4,
         "familiarity": 5,
-        "timestamp": "2025-04-15 11:39:27"
+        "timestamp": "2025-05-16 15:39:38"
     },
     {
         "clip_id": 13,
         "title": "Mood for a Day",
         "artist": "Yes",
-        "valence": 6,
-        "arousal": 3,
-        "familiarity": 1,
-        "timestamp": "2025-04-15 11:42:01"
+        "valence": 9,
+        "arousal": 2,
+        "familiarity": 2,
+        "timestamp": "2025-05-16 15:42:02"
     },
     {
         "clip_id": 14,
         "title": "Brothers in Arms",
         "artist": "Dire Straits",
-        "valence": 7,
-        "arousal": 3,
-        "familiarity": 5,
-        "timestamp": "2025-04-15 11:44:20"
+        "valence": 6,
+        "arousal": 1,
+        "familiarity": 2,
+        "timestamp": "2025-05-16 15:44:26"
     },
     {
         "clip_id": 15,
         "title": "Little Martha",
         "artist": "The Allman Brothers Band",
-        "valence": 7,
-        "arousal": 2,
-        "familiarity": 1,
-        "timestamp": "2025-04-15 11:46:33"
+        "valence": 5,
+        "arousal": 1,
+        "familiarity": 2,
+        "timestamp": "2025-05-16 15:46:41"
     },
     {
         "clip_id": 16,
         "title": "Sleepwalk",
         "artist": "Santo & Johnny",
-        "valence": 6,
+        "valence": 3,
         "arousal": 2,
         "familiarity": 1,
-        "timestamp": "2025-04-15 11:48:51"
+        "timestamp": "2025-05-16 15:49:02"
     }
 ]
